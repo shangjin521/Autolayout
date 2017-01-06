@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MViewController">
+            <connections>
+                <outlet property="left" destination="2uU-tQ-cql" id="TGS-ND-KnX"/>
+                <outlet property="redview" destination="0JP-M8-BoT" id="JiD-wi-ArI"/>
+                <outlet property="text" destination="jLr-8e-GbK" id="HOg-Qx-rn1"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="width" destination="ZEh-Ev-qGb" id="EJz-eb-a5P"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jLr-8e-GbK">
+                    <rect key="frame" x="40" y="40" width="295" height="21"/>
+                    <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="highlightedColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0JP-M8-BoT">
+                    <rect key="frame" x="0.0" y="467" width="200" height="200"/>
+                    <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="XYl-gu-in5"/>
+                        <constraint firstAttribute="width" constant="200" id="ZEh-Ev-qGb"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="0JP-M8-BoT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="2uU-tQ-cql"/>
+                <constraint firstAttribute="trailing" secondItem="jLr-8e-GbK" secondAttribute="trailing" constant="40" id="UWQ-gk-3Ho"/>
+                <constraint firstItem="jLr-8e-GbK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="40" id="t91-wq-4lr"/>
+                <constraint firstItem="jLr-8e-GbK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="uuq-1T-Mnv"/>
+                <constraint firstAttribute="bottom" secondItem="0JP-M8-BoT" secondAttribute="bottom" id="zUX-xf-cjM"/>
+            </constraints>
+            <point key="canvasLocation" x="873" y="368"/>
+        </view>
+    </objects>
+</document>
